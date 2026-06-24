@@ -7,7 +7,7 @@
     <img src="https://img.shields.io/badge/GitHub-Ksiwa-111111?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile" />
   </a>
   <img src="https://komarev.com/ghpvc/?username=Ksiwa&style=for-the-badge&color=00c2a8&label=PROFILE+VIEWS" alt="Profile views" />
-  <img src="https://img.shields.io/badge/Focus-Mobile%20Apps%20%2B%20Product%20Systems-ffb703?style=for-the-badge" alt="Focus badge" />
+  <img src="https://img.shields.io/badge/Focus-Mobile%20Apps%20%2B%20AI%20Systems-ffb703?style=for-the-badge" alt="Focus badge" />
 </p>
 
 <p align="center">
@@ -18,7 +18,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=2800&pause=700&color=00C2A8&center=true&vCenter=true&width=860&lines=Mobile+apps%2C+clean+architecture%2C+useful+systems.;React+Native+%2B+TypeScript+for+fast+product+loops.;C%23%2C+Kotlin%2C+and+practical+software+that+solves+real+workflows." alt="Typing animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=2800&pause=700&color=00C2A8&center=true&vCenter=true&width=900&lines=Mobile+apps%2C+AI+experiments%2C+and+useful+systems.;React+Native%2C+Android%2C+Firebase%2C+and+clean+architecture.;YOLOv8%2C+audio+classification%2C+and+practical+ML+interfaces." alt="Typing animation" />
 </p>
 
 <img src="./assets/line.svg" alt="" width="100%" />
@@ -30,15 +30,15 @@
     <td width="50%">
       <h3>Product direction</h3>
       <p>
-        I build practical apps around real workflows: market tracking, management
-        systems, donation coordination, and mobile experiences with a clean structure.
+        I build practical apps around real workflows: recipe planning, market
+        tracking, management systems, donation coordination, and mobile experiences.
       </p>
     </td>
     <td width="50%">
       <h3>Engineering taste</h3>
       <p>
-        I like readable code, clear layers, fast feedback, and interfaces that
-        stay useful after the first demo.
+        I like readable code, clear layers, fast feedback, and ML/product ideas
+        that can be tested through usable interfaces.
       </p>
     </td>
   </tr>
@@ -47,13 +47,26 @@
 ### Tech Stack
 
 <p align="center" id="tech-stack">
-  <img src="https://skillicons.dev/icons?i=ts,js,react,redux,nodejs,cs,dotnet,kotlin,androidstudio,html,css,git,github,vscode&perline=7" alt="Tech stack icons" />
+  <img src="https://skillicons.dev/icons?i=ts,js,react,redux,nodejs,java,kotlin,androidstudio,firebase,cs,dotnet,python,pytorch,opencv,html,css,git,github,vscode&perline=7" alt="Tech stack icons" />
 </p>
 
 ### Featured Projects
 
 <table id="featured-projects">
   <tr>
+    <td width="50%">
+      <h3>RecipeBookPro</h3>
+      <p>
+        Full-featured Android recipe management app with Firebase sync, offline
+        Room storage, meal planning, smart shopping lists, and AI nutrition analysis.
+      </p>
+      <p>
+        <img src="https://img.shields.io/badge/Private%20Repo-111111?style=flat-square&logo=github&logoColor=white" alt="Private repo" />
+        <img src="https://img.shields.io/badge/Android-3ddc84?style=flat-square&logo=android&logoColor=white" alt="Android" />
+        <img src="https://img.shields.io/badge/Firebase-ffca28?style=flat-square&logo=firebase&logoColor=black" alt="Firebase" />
+        <img src="https://img.shields.io/badge/Java%2017-f89820?style=flat-square&logo=openjdk&logoColor=white" alt="Java 17" />
+      </p>
+    </td>
     <td width="50%">
       <h3><a href="https://github.com/Ksiwa/Crypto-Market-Tracker">Crypto Market Tracker</a></h3>
       <p>
@@ -66,6 +79,8 @@
         <img src="https://img.shields.io/badge/Zustand-111111?style=flat-square" alt="Zustand" />
       </p>
     </td>
+  </tr>
+  <tr>
     <td width="50%">
       <h3><a href="https://github.com/Ksiwa/Restaurant-Management-Sytstem">Restaurant Management System</a></h3>
       <p>
@@ -77,8 +92,6 @@
         <img src="https://img.shields.io/badge/Management%20System-ffb703?style=flat-square" alt="Management system" />
       </p>
     </td>
-  </tr>
-  <tr>
     <td width="50%">
       <h3><a href="https://github.com/Ksiwa/DonationWork">DonationWork</a></h3>
       <p>
@@ -90,6 +103,8 @@
         <img src="https://img.shields.io/badge/Workflow%20Design-111111?style=flat-square" alt="Workflow design" />
       </p>
     </td>
+  </tr>
+  <tr>
     <td width="50%">
       <h3><a href="https://github.com/Ksiwa/ExerciseFormAnalyzer">Exercise Form Analyzer</a></h3>
       <p>
@@ -101,6 +116,47 @@
         <img src="https://img.shields.io/badge/Mobile%20UX-ff6b4a?style=flat-square" alt="Mobile UX" />
       </p>
     </td>
+    <td width="50%">
+      <h3>Brain Hemorrhage Detection</h3>
+      <p>
+        YOLOv8 CT image object detection project with grouped dataset splitting,
+        ablation results, error analysis, and a local Tkinter demo app.
+      </p>
+      <p>
+        <img src="https://img.shields.io/badge/Local%20Project-111111?style=flat-square" alt="Local project" />
+        <img src="https://img.shields.io/badge/YOLOv8-00c2a8?style=flat-square" alt="YOLOv8" />
+        <img src="https://img.shields.io/badge/PyTorch-ee4c2c?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
+        <img src="https://img.shields.io/badge/OpenCV-5c3ee8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3>Hey Pakize Voice Detector</h3>
+      <p>
+        Desktop audio recognition experiment with live microphone detection,
+        waveform UI, model training scripts, and positive/negative sample sets.
+      </p>
+      <p>
+        <img src="https://img.shields.io/badge/Local%20Project-111111?style=flat-square" alt="Local project" />
+        <img src="https://img.shields.io/badge/Python-3776ab?style=flat-square&logo=python&logoColor=white" alt="Python" />
+        <img src="https://img.shields.io/badge/Audio%20ML-ffb703?style=flat-square" alt="Audio ML" />
+        <img src="https://img.shields.io/badge/Tkinter-00c2a8?style=flat-square" alt="Tkinter" />
+      </p>
+    </td>
+    <td width="50%">
+      <h3>RecipeBook Local Workspace</h3>
+      <p>
+        Active Android/Firebase workspace for RecipeBookPro, including Firestore
+        rules, Firebase Hosting config, sharing flows, and app documentation.
+      </p>
+      <p>
+        <img src="https://img.shields.io/badge/Local%20Workspace-111111?style=flat-square" alt="Local workspace" />
+        <img src="https://img.shields.io/badge/Room%20Database-3ddc84?style=flat-square" alt="Room database" />
+        <img src="https://img.shields.io/badge/ML%20Kit-4285f4?style=flat-square&logo=google&logoColor=white" alt="ML Kit" />
+        <img src="https://img.shields.io/badge/Groq%20AI-ff6b4a?style=flat-square" alt="Groq AI" />
+      </p>
+    </td>
   </tr>
 </table>
 
@@ -110,15 +166,15 @@
   <tr>
     <td width="33%">
       <b>Mobile product flow</b><br />
-      Making app screens easier to scan, navigate, and maintain.
+      Recipe planning, market tracking, and Android experiences with real backend flows.
     </td>
     <td width="33%">
       <b>Clean architecture</b><br />
-      Keeping data, state, and UI responsibilities separated.
+      Keeping data, state, UI, and model responsibilities separated.
     </td>
     <td width="33%">
       <b>Real-world systems</b><br />
-      Building tools around operations, markets, donations, and analysis.
+      Turning detection, audio, and analysis experiments into usable interfaces.
     </td>
   </tr>
 </table>
