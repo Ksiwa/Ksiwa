@@ -173,15 +173,15 @@
       </p>
     </td>
     <td width="50%">
-      <h3><a href="https://github.com/Ksiwa/DonationWork">🤝 DonationWork</a></h3>
+      <h3><a href="https://github.com/Ksiwa/FoodOrderSite">🍔 Food Order Site</a></h3>
       <p>
-        Food donation and management concept for coordinating resources,
-        requests, and useful community-oriented workflows.
+        ASP.NET food ordering web application with C# backend, HTML/CSS/JS
+        frontend, order management and structured restaurant workflows.
       </p>
       <p>
-        <img src="https://img.shields.io/badge/Food%20Donation-00c2a8?style=flat-square" alt="Food donation" />
-        <img src="https://img.shields.io/badge/Workflow%20Design-111111?style=flat-square" alt="Workflow design" />
-        <img src="https://img.shields.io/badge/Community-ffb703?style=flat-square" alt="Community" />
+        <img src="https://img.shields.io/badge/C%23-512bd4?style=flat-square&logo=csharp&logoColor=white" alt="C#" />
+        <img src="https://img.shields.io/badge/ASP.NET-512bd4?style=flat-square&logo=dotnet&logoColor=white" alt="ASP.NET" />
+        <img src="https://img.shields.io/badge/HTML%2FCSS%2FJS-e34c26?style=flat-square&logo=html5&logoColor=white" alt="HTML/CSS/JS" />
       </p>
     </td>
   </tr>
