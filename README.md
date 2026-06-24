@@ -3,10 +3,10 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Kadir">
-    <img src="https://img.shields.io/badge/GitHub-Kadir-111111?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile" />
+  <a href="https://github.com/Ksiwa">
+    <img src="https://img.shields.io/badge/GitHub-Ksiwa-111111?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile" />
   </a>
-  <img src="https://komarev.com/ghpvc/?username=Kadir&style=for-the-badge&color=00c2a8&label=PROFILE+VIEWS" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=Ksiwa&style=for-the-badge&color=00c2a8&label=PROFILE+VIEWS" alt="Profile views" />
   <img src="https://img.shields.io/badge/Focus-Clean%20Code%20%2B%20Creative%20UX-ffb703?style=for-the-badge" alt="Focus badge" />
 </p>
 
@@ -72,12 +72,12 @@
 ### GitHub Pulse
 
 <p align="center" id="github-pulse">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Kadir&show_icons=true&hide_border=true&theme=transparent&title_color=00c2a8&text_color=dedede&icon_color=ffb703&bg_color=00000000" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-streak-stats.herokuapp.com?user=Kadir&hide_border=true&background=00000000&stroke=00c2a8&ring=ffb703&fire=ff6b4a&currStreakLabel=00c2a8&sideLabels=dedede&dates=9a9a9a&sideNums=ffffff&currStreakNum=ffffff" alt="GitHub streak" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Ksiwa&show_icons=true&hide_border=true&theme=transparent&title_color=00c2a8&text_color=dedede&icon_color=ffb703&bg_color=00000000" alt="GitHub stats" />
+  <img height="165" src="https://github-readme-streak-stats.herokuapp.com?user=Ksiwa&hide_border=true&background=00000000&stroke=00c2a8&ring=ffb703&fire=ff6b4a&currStreakLabel=00c2a8&sideLabels=dedede&dates=9a9a9a&sideNums=ffffff&currStreakNum=ffffff" alt="GitHub streak" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Kadir&bg_color=00000000&color=dedede&line=00c2a8&point=ffb703&area=true&area_color=00c2a8&hide_border=true" alt="GitHub activity graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Ksiwa&bg_color=00000000&color=dedede&line=00c2a8&point=ffb703&area=true&area_color=00c2a8&hide_border=true" alt="GitHub activity graph" />
 </p>
 
 ### Contribution Flow
@@ -89,13 +89,13 @@
 ### Connect
 
 <p align="center" id="connect">
-  <a href="https://github.com/Kadir?tab=repositories">
+  <a href="https://github.com/Ksiwa?tab=repositories">
     <img src="https://img.shields.io/badge/Projects-Explore-00c2a8?style=for-the-badge&logo=github&logoColor=white" alt="Projects" />
   </a>
-  <a href="https://github.com/Kadir?tab=followers">
+  <a href="https://github.com/Ksiwa?tab=followers">
     <img src="https://img.shields.io/badge/GitHub-Follow-111111?style=for-the-badge&logo=github&logoColor=white" alt="Follow on GitHub" />
   </a>
-  <a href="https://github.com/Kadir?tab=stars">
+  <a href="https://github.com/Ksiwa?tab=stars">
     <img src="https://img.shields.io/badge/Stars-Favorites-ffb703?style=for-the-badge&logo=github&logoColor=white" alt="Starred repositories" />
   </a>
 </p>
@@ -108,7 +108,7 @@
 
 <!--
 Quick personalization checklist:
-- Replace every "Kadir" in badge/stat URLs with your exact GitHub username if it is different.
+- Replace display text, contact links, or the hero name whenever you want a more personal version.
 - Add LinkedIn, X, portfolio, or mail links if you want public contact buttons.
 - Edit the Tech Stack icons at https://skillicons.dev if you want a different set.
 - The workflow in .github/workflows/profile-animations.yml refreshes assets/snake.svg automatically on GitHub.
