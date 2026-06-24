@@ -102,7 +102,7 @@
 
 <p align="center">
   <sub>
-    Designed to feel fast, warm, and alive. Update the links and username once, then let the animations do the rest.
+    Designed to feel fast, warm, and alive. Freshly tuned for the Ksiwa profile.
   </sub>
 </p>
 
