@@ -1,0 +1,28 @@
+<svg width="1200" height="220" viewBox="0 0 1200 220" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Contribution flow placeholder</title>
+  <desc id="desc">Animated placeholder shown until the GitHub workflow generates the contribution snake.</desc>
+  <defs>
+    <linearGradient id="stroke" x1="120" y1="110" x2="1080" y2="110" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2A8"/>
+      <stop offset="0.5" stop-color="#FFB703"/>
+      <stop offset="1" stop-color="#FF6B4A"/>
+    </linearGradient>
+    <style>
+      .path { stroke-dasharray: 28 22; animation: move 10s linear infinite; }
+      .dot { animation: pop 2.4s ease-in-out infinite; transform-origin: center; }
+      .label { font: 600 18px 'JetBrains Mono', 'Fira Code', Consolas, monospace; letter-spacing: 0; }
+      @keyframes move { to { stroke-dashoffset: -500; } }
+      @keyframes pop { 0%,100% { opacity: .38; transform: scale(.92); } 50% { opacity: 1; transform: scale(1.08); } }
+    </style>
+  </defs>
+  <rect width="1200" height="220" rx="20" fill="#0B0F0E"/>
+  <g opacity="0.24">
+    <path d="M130 64H1070M130 110H1070M130 156H1070" stroke="#FFFFFF"/>
+    <path d="M176 42V178M222 42V178M268 42V178M314 42V178M360 42V178M406 42V178M452 42V178M498 42V178M544 42V178M590 42V178M636 42V178M682 42V178M728 42V178M774 42V178M820 42V178M866 42V178M912 42V178M958 42V178M1004 42V178" stroke="#FFFFFF"/>
+  </g>
+  <path class="path" d="M132 156C214 83 265 84 344 132C438 189 496 28 597 92C683 146 711 183 812 122C904 66 968 70 1068 144" stroke="url(#stroke)" stroke-width="11" stroke-linecap="round"/>
+  <circle class="dot" cx="344" cy="132" r="10" fill="#00C2A8"/>
+  <circle class="dot" cx="597" cy="92" r="10" fill="#FFB703" style="animation-delay:.35s"/>
+  <circle class="dot" cx="812" cy="122" r="10" fill="#FF6B4A" style="animation-delay:.7s"/>
+  <text x="320" y="204" fill="#DDEAE7" class="label">contribution animation will refresh after the workflow runs</text>
+</svg>

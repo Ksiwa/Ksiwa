@@ -1,0 +1,16 @@
+<svg width="1200" height="34" viewBox="0 0 1200 34" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <defs>
+    <linearGradient id="line" x1="0" y1="17" x2="1200" y2="17" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2A8" stop-opacity="0"/>
+      <stop offset="0.22" stop-color="#00C2A8"/>
+      <stop offset="0.52" stop-color="#FFB703"/>
+      <stop offset="0.78" stop-color="#FF6B4A"/>
+      <stop offset="1" stop-color="#FF6B4A" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      .flow { stroke-dasharray: 90 34; animation: flow 8s linear infinite; }
+      @keyframes flow { to { stroke-dashoffset: -248; } }
+    </style>
+  </defs>
+  <path class="flow" d="M0 17 C155 4 234 30 389 17 S637 4 794 17 1042 30 1200 17" stroke="url(#line)" stroke-width="3" stroke-linecap="round"/>
+</svg>
