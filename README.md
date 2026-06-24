@@ -55,13 +55,13 @@
 <table id="featured-projects">
   <tr>
     <td width="50%">
-      <h3>RecipeBookPro</h3>
+      <h3><a href="https://github.com/Ksiwa/RecipeBookPro">RecipeBookPro</a></h3>
       <p>
         Full-featured Android recipe management app with Firebase sync, offline
         Room storage, meal planning, smart shopping lists, and AI nutrition analysis.
       </p>
       <p>
-        <img src="https://img.shields.io/badge/Private%20Repo-111111?style=flat-square&logo=github&logoColor=white" alt="Private repo" />
+        <img src="https://img.shields.io/badge/Public%20Repo-111111?style=flat-square&logo=github&logoColor=white" alt="Public repo" />
         <img src="https://img.shields.io/badge/Android-3ddc84?style=flat-square&logo=android&logoColor=white" alt="Android" />
         <img src="https://img.shields.io/badge/Firebase-ffca28?style=flat-square&logo=firebase&logoColor=black" alt="Firebase" />
         <img src="https://img.shields.io/badge/Java%2017-f89820?style=flat-square&logo=openjdk&logoColor=white" alt="Java 17" />
@@ -117,13 +117,13 @@
       </p>
     </td>
     <td width="50%">
-      <h3>Brain Hemorrhage Detection</h3>
+      <h3><a href="https://github.com/Ksiwa/Brain-Hemorrhage-Detection">Brain Hemorrhage Detection</a></h3>
       <p>
         YOLOv8 CT image object detection project with grouped dataset splitting,
         ablation results, error analysis, and a local Tkinter demo app.
       </p>
       <p>
-        <img src="https://img.shields.io/badge/Local%20Project-111111?style=flat-square" alt="Local project" />
+        <img src="https://img.shields.io/badge/Public%20Repo-111111?style=flat-square&logo=github&logoColor=white" alt="Public repo" />
         <img src="https://img.shields.io/badge/YOLOv8-00c2a8?style=flat-square" alt="YOLOv8" />
         <img src="https://img.shields.io/badge/PyTorch-ee4c2c?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
         <img src="https://img.shields.io/badge/OpenCV-5c3ee8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV" />
@@ -131,30 +131,18 @@
     </td>
   </tr>
   <tr>
-    <td width="50%">
-      <h3>Hey Pakize Voice Detector</h3>
+    <td colspan="2">
+      <h3><a href="https://github.com/Ksiwa/Hey-Pakize-Voice-Detector">Hey Pakize Voice Detector</a></h3>
       <p>
         Desktop audio recognition experiment with live microphone detection,
-        waveform UI, model training scripts, and positive/negative sample sets.
+        waveform UI, model training scripts, positive/negative sample folders,
+        and privacy-conscious publishing without raw voice recordings.
       </p>
       <p>
-        <img src="https://img.shields.io/badge/Local%20Project-111111?style=flat-square" alt="Local project" />
+        <img src="https://img.shields.io/badge/Public%20Repo-111111?style=flat-square&logo=github&logoColor=white" alt="Public repo" />
         <img src="https://img.shields.io/badge/Python-3776ab?style=flat-square&logo=python&logoColor=white" alt="Python" />
         <img src="https://img.shields.io/badge/Audio%20ML-ffb703?style=flat-square" alt="Audio ML" />
         <img src="https://img.shields.io/badge/Tkinter-00c2a8?style=flat-square" alt="Tkinter" />
-      </p>
-    </td>
-    <td width="50%">
-      <h3>RecipeBook Local Workspace</h3>
-      <p>
-        Active Android/Firebase workspace for RecipeBookPro, including Firestore
-        rules, Firebase Hosting config, sharing flows, and app documentation.
-      </p>
-      <p>
-        <img src="https://img.shields.io/badge/Local%20Workspace-111111?style=flat-square" alt="Local workspace" />
-        <img src="https://img.shields.io/badge/Room%20Database-3ddc84?style=flat-square" alt="Room database" />
-        <img src="https://img.shields.io/badge/ML%20Kit-4285f4?style=flat-square&logo=google&logoColor=white" alt="ML Kit" />
-        <img src="https://img.shields.io/badge/Groq%20AI-ff6b4a?style=flat-square" alt="Groq AI" />
       </p>
     </td>
   </tr>
