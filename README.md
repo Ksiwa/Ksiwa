@@ -48,7 +48,6 @@
 
 ### Tech Stack
 
-> 💡 _Hover over each icon to see the technology name._
 
 <p align="center" id="tech-stack">
 
