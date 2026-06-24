@@ -105,13 +105,17 @@
     <td width="50%">
       <h3><a href="https://github.com/Ksiwa/RecipeBookPro">📱 RecipeBookPro</a></h3>
       <p>
-        Full-featured Android recipe management app with Firebase sync, offline
-        Room storage, meal planning, smart shopping lists, and AI nutrition analysis.
+        Android recipe management app with Firebase cloud sync, offline Room DB,
+        weekly meal planner, AI nutrition analysis via Groq API, on-device ML Kit
+        translation, WorkManager shopping lists, and FCM push notifications.
+        Built as a team project for Mobile Programming course.
       </p>
       <p>
         <img src="https://img.shields.io/badge/Android-3ddc84?style=flat-square&logo=android&logoColor=white" alt="Android" />
         <img src="https://img.shields.io/badge/Firebase-ffca28?style=flat-square&logo=firebase&logoColor=black" alt="Firebase" />
         <img src="https://img.shields.io/badge/Java%2017-f89820?style=flat-square&logo=openjdk&logoColor=white" alt="Java 17" />
+        <img src="https://img.shields.io/badge/Groq%20AI-blueviolet?style=flat-square" alt="Groq AI" />
+        <img src="https://img.shields.io/badge/ML%20Kit-4285F4?style=flat-square&logo=google&logoColor=white" alt="ML Kit" />
         <img src="https://img.shields.io/badge/Room%20DB-3ddc84?style=flat-square" alt="Room DB" />
       </p>
     </td>
