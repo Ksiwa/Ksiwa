@@ -1,6 +1,6 @@
 <svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Kadir animated developer banner</title>
-  <desc id="desc">A modern animated GitHub profile banner with a terminal, orbit lines, particles, and developer themed text.</desc>
+  <title id="title">Kadir Ocak — Mobile &amp; AI Developer</title>
+  <desc id="desc">A modern animated GitHub profile banner featuring a terminal window, orbit paths, particles, and developer-themed text for Kadir Ocak (Ksiwa).</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
       <stop stop-color="#0B0F0E"/>
@@ -17,8 +17,15 @@
       <stop offset="0.42" stop-color="#FFB703" stop-opacity="0.14"/>
       <stop offset="1" stop-color="#000000" stop-opacity="0"/>
     </radialGradient>
+    <radialGradient id="glow2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(200 300) rotate(60) scale(200 300)">
+      <stop stop-color="#FF6B4A" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
     <filter id="soft" x="-80" y="-80" width="1360" height="580" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
       <feGaussianBlur stdDeviation="30"/>
+    </filter>
+    <filter id="soft2" x="-50" y="-50" width="500" height="500" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="18"/>
     </filter>
     <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse">
       <path d="M 38 0 L 0 0 0 38" fill="none" stroke="#FFFFFF" stroke-opacity="0.045" stroke-width="1"/>
@@ -26,59 +33,96 @@
     <style>
       .fade { animation: fade 5s ease-in-out infinite alternate; }
       .float { animation: float 7s ease-in-out infinite; }
+      .float2 { animation: float2 9s ease-in-out infinite; }
       .dash { stroke-dasharray: 10 18; animation: dash 18s linear infinite; }
+      .dash2 { stroke-dasharray: 6 14; animation: dash 24s linear infinite reverse; }
       .blink { animation: blink 1.05s steps(2, start) infinite; }
       .scan { animation: scan 4.8s ease-in-out infinite; }
       .pulse { animation: pulse 2.9s ease-in-out infinite; transform-origin: center; }
+      .pulse2 { animation: pulse 3.7s ease-in-out infinite 0.8s; transform-origin: center; }
+      .slidein { animation: slidein 1.2s cubic-bezier(.22,1,.36,1) forwards; }
       .code { font: 500 19px 'JetBrains Mono', 'Fira Code', Consolas, monospace; }
       .tiny { font: 500 13px 'JetBrains Mono', 'Fira Code', Consolas, monospace; letter-spacing: 0; }
-      .title { font: 800 70px Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; letter-spacing: 0; }
-      .subtitle { font: 500 24px Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; letter-spacing: 0; }
+      .title { font: 800 70px Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; letter-spacing: -1px; }
+      .subtitle { font: 500 22px Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; letter-spacing: 0; }
+      .label { font: 600 11px Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; letter-spacing: 1.5px; text-transform: uppercase; }
       @keyframes dash { to { stroke-dashoffset: -280; } }
       @keyframes fade { from { opacity: .55; } to { opacity: 1; } }
       @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-14px); } }
+      @keyframes float2 { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
       @keyframes blink { 0%,45% { opacity: 1; } 46%,100% { opacity: 0; } }
       @keyframes scan { 0%,100% { transform: translateY(-120px); opacity: 0; } 15%,80% { opacity: .75; } 50% { transform: translateY(116px); } }
       @keyframes pulse { 0%,100% { transform: scale(1); opacity: .72; } 50% { transform: scale(1.08); opacity: 1; } }
+      @keyframes slidein { from { opacity: 0; transform: translateX(30px); } to { opacity: 1; transform: translateX(0); } }
     </style>
   </defs>
+
+  <!-- Background -->
   <rect width="1200" height="420" rx="28" fill="url(#bg)"/>
   <rect width="1200" height="420" rx="28" fill="url(#grid)"/>
   <rect x="154" y="-66" width="910" height="540" rx="270" fill="url(#glow)" filter="url(#soft)" class="fade"/>
+  <rect x="0" y="200" width="350" height="350" rx="175" fill="url(#glow2)" filter="url(#soft2)" class="fade"/>
 
+  <!-- Orbit paths -->
   <g opacity="0.78">
     <path d="M734 67C849 78 935 133 972 214C1010 297 938 354 823 351C708 348 595 299 565 217C535 135 618 56 734 67Z" stroke="url(#accent)" stroke-width="2" class="dash"/>
-    <path d="M789 105C885 124 941 180 925 244C909 309 827 337 733 318C640 298 583 242 599 178C615 114 696 86 789 105Z" stroke="#FFFFFF" stroke-opacity="0.2" stroke-width="1.2" class="dash"/>
+    <path d="M789 105C885 124 941 180 925 244C909 309 827 337 733 318C640 298 583 242 599 178C615 114 696 86 789 105Z" stroke="#FFFFFF" stroke-opacity="0.2" stroke-width="1.2" class="dash2"/>
+    <!-- Orbit dots -->
     <circle cx="969" cy="214" r="7" fill="#FFB703" class="pulse"/>
     <circle cx="599" cy="178" r="6" fill="#00C2A8" class="pulse"/>
-    <circle cx="823" cy="351" r="5" fill="#FF6B4A" class="pulse"/>
+    <circle cx="823" cy="351" r="5" fill="#FF6B4A" class="pulse2"/>
+    <circle cx="734" cy="67" r="4" fill="#FFFFFF" fill-opacity="0.5" class="pulse2"/>
   </g>
 
+  <!-- Terminal window -->
   <g class="float">
-    <rect x="88" y="90" width="440" height="244" rx="20" fill="#0F1414" stroke="#FFFFFF" stroke-opacity="0.12"/>
-    <rect x="88" y="90" width="440" height="42" rx="20" fill="#161D1C"/>
-    <circle cx="120" cy="112" r="6" fill="#FF6B4A"/>
-    <circle cx="142" cy="112" r="6" fill="#FFB703"/>
-    <circle cx="164" cy="112" r="6" fill="#00C2A8"/>
-    <rect x="111" y="164" width="222" height="12" rx="6" fill="#00C2A8" fill-opacity="0.32"/>
-    <rect x="111" y="197" width="310" height="12" rx="6" fill="#FFFFFF" fill-opacity="0.13"/>
-    <rect x="111" y="230" width="274" height="12" rx="6" fill="#FFB703" fill-opacity="0.28"/>
-    <rect x="111" y="263" width="352" height="12" rx="6" fill="#FFFFFF" fill-opacity="0.11"/>
-    <text x="112" y="309" fill="#DDEAE7" class="code">&gt; build --mobile --ai<tspan class="blink">_</tspan></text>
-    <rect x="88" y="132" width="440" height="2" fill="#FFFFFF" fill-opacity="0.06"/>
-    <rect x="96" y="140" width="424" height="35" fill="#00C2A8" fill-opacity="0.07" class="scan"/>
+    <rect x="68" y="80" width="460" height="264" rx="20" fill="#0F1414" stroke="#FFFFFF" stroke-opacity="0.10"/>
+    <rect x="68" y="80" width="460" height="44" rx="20" fill="#161D1C"/>
+    <rect x="68" y="100" width="460" height="24" fill="#161D1C"/>
+    <!-- Traffic lights -->
+    <circle cx="100" cy="103" r="6" fill="#FF6B4A"/>
+    <circle cx="122" cy="103" r="6" fill="#FFB703"/>
+    <circle cx="144" cy="103" r="6" fill="#00C2A8"/>
+    <!-- Terminal title -->
+    <text x="200" y="108" fill="#FFFFFF" fill-opacity="0.35" class="label" text-anchor="middle">terminal — ksiwa</text>
+    <!-- Code lines -->
+    <rect x="91" y="152" width="200" height="10" rx="5" fill="#00C2A8" fill-opacity="0.36"/>
+    <rect x="91" y="172" width="300" height="10" rx="5" fill="#FFFFFF" fill-opacity="0.12"/>
+    <rect x="91" y="192" width="256" height="10" rx="5" fill="#FFB703" fill-opacity="0.28"/>
+    <rect x="91" y="212" width="340" height="10" rx="5" fill="#FFFFFF" fill-opacity="0.10"/>
+    <rect x="91" y="232" width="180" height="10" rx="5" fill="#FF6B4A" fill-opacity="0.28"/>
+    <!-- Prompt line -->
+    <text x="92" y="278" fill="#DDEAE7" class="code">&gt; build --mobile --ai<tspan class="blink">_</tspan></text>
+    <rect x="68" y="120" width="460" height="2" fill="#FFFFFF" fill-opacity="0.06"/>
+    <rect x="76" y="128" width="444" height="36" fill="#00C2A8" fill-opacity="0.06" class="scan"/>
+    <!-- Status bar -->
+    <rect x="68" y="318" width="460" height="26" rx="12" fill="#FFFFFF" fill-opacity="0.04"/>
+    <circle cx="90" cy="331" r="4" fill="#00C2A8" fill-opacity="0.8"/>
+    <text x="102" y="335" fill="#FFFFFF" fill-opacity="0.3" class="label">main · python · android · react-native</text>
   </g>
 
+  <!-- Right side: Name & tagline -->
   <g>
-    <text x="610" y="159" fill="#F5F7F4" class="title">Kadir</text>
-    <text x="614" y="204" fill="#D7DED9" class="subtitle">mobile apps / ai experiments / useful systems</text>
-    <text x="616" y="248" fill="#00C2A8" class="tiny">android</text>
-    <text x="704" y="248" fill="#FFB703" class="tiny">react native</text>
-    <text x="836" y="248" fill="#FF6B4A" class="tiny">deep learning</text>
-    <rect x="615" y="278" width="344" height="44" rx="22" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.12"/>
-    <text x="638" y="306" fill="#F5F7F4" class="tiny">from product workflows to model-powered demos</text>
+    <text x="588" y="152" fill="#F5F7F4" class="title">Kadir</text>
+    <text x="592" y="196" fill="#C8D5D1" class="subtitle">mobile apps / ai experiments / useful systems</text>
+    <!-- Tech pills row -->
+    <text x="594" y="238" fill="#00C2A8" class="tiny">android</text>
+    <text x="676" y="238" fill="#FFB703" class="tiny">react native</text>
+    <text x="808" y="238" fill="#FF6B4A" class="tiny">deep learning</text>
+
+    <!-- Tagline pill -->
+    <rect x="591" y="262" width="368" height="44" rx="22" fill="#FFFFFF" fill-opacity="0.07" stroke="#FFFFFF" stroke-opacity="0.10"/>
+    <text x="614" y="290" fill="#F5F7F4" class="tiny">from product workflows to model-powered demos</text>
+
+    <!-- Project highlights row -->
+    <rect x="591" y="318" width="168" height="30" rx="8" fill="#00C2A8" fill-opacity="0.12" stroke="#00C2A8" stroke-opacity="0.25" stroke-width="1"/>
+    <text x="605" y="338" fill="#00C2A8" class="label">🎙 hey pakize</text>
+
+    <rect x="769" y="318" width="192" height="30" rx="8" fill="#FFB703" fill-opacity="0.10" stroke="#FFB703" stroke-opacity="0.22" stroke-width="1"/>
+    <text x="783" y="338" fill="#FFB703" class="label">🧠 brain hemorrhage</text>
   </g>
 
+  <!-- Floating particles -->
   <g opacity="0.9">
     <circle cx="1060" cy="100" r="3" fill="#00C2A8">
       <animate attributeName="cy" values="100;86;100" dur="3s" repeatCount="indefinite"/>
@@ -91,6 +135,12 @@
     </circle>
     <circle cx="78" cy="354" r="4" fill="#00C2A8">
       <animate attributeName="cx" values="78;98;78" dur="4.3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1100" cy="360" r="3" fill="#FF6B4A">
+      <animate attributeName="cy" values="360;344;360" dur="5.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="540" cy="380" r="2.5" fill="#FFB703">
+      <animate attributeName="cx" values="540;558;540" dur="3.9s" repeatCount="indefinite"/>
     </circle>
   </g>
 </svg>
